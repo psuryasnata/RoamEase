@@ -126,6 +126,18 @@ main{
     
 }
 
+.parah .about-more{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding-top: 20px;
+}
+
+.parah .about-more a{
+    font-size: 18px;
+}
+
 
 
 
@@ -341,6 +353,27 @@ main{
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.btn:not(:hover) {
+    background-color: #333;
+    color: #fff;
 }
 
 
